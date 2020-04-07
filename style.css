@@ -1,4 +1,5 @@
 /* Global styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300;400&display=swap');
 
 * {
@@ -30,8 +31,8 @@ h1, h2, p {
 
 
 /* Self Styles */
-/* --- --- START of Navbar --- --- */
 
+/* --- --- START of Navbar --- --- */
 #navbar {
     background-color: var(--nav_background_color);
     position: fixed;
@@ -66,14 +67,12 @@ h1, h2, p {
     font-weight: bold;
     color: var(--font_color);
 }
-
 /* --- --- END of Navbar --- --- */
 
 
 
 
 /* --- --- START welcome-section --- --- */
-
 #welcome-section {
     width: 100%;
     height: 100vh;
@@ -97,7 +96,6 @@ h1, h2, p {
     font-size: 2rem;
     font-weight: 100;
 }
-
 /* --- --- END welcome-section --- --- */
 
 
@@ -198,5 +196,83 @@ i.fa-greater-than {
         width: 90%;
     }
 }
-
 /* --- --- END projects --- ---  */
+
+
+
+/* --- --- START contact  --- --- */
+#contact {
+    height: 95vh;
+    background-color: var(--projects_label_background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid var(--nav_background_color);
+    color: var(--font_color);
+}
+#flex_column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.flex   {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 60%;
+    padding: 4rem 0;
+    flex-wrap: wrap;
+}
+.flex > a {
+    padding: 1rem;
+}
+.flex_text {
+    display: flex;
+}
+#flex_column h2{
+    color: var(--font_color);
+    text-transform: capitalize;
+    font-size: 3.8rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+#flex_column > p {
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.text_wrapper i {
+    color: var(--font_color);
+    font-size: 1.8rem; 
+    padding-right: .5rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+.text_wrapper p {
+    color: var(--font_color);
+    font-size: 1.5rem; 
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+.text_wrapper {
+    transition: transform .5s ease;
+}
+.text_wrapper:hover {
+    transform: translateY(10px);
+}
+/* --- --- END contact  --- --- */
+
+
+
+/* --- --- START footer --- --- */
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: var(--font_color);
+    background-color: var(--projects_label_background);
+    font-size: 1.3rem;
+}
+footer a {
+    color: greenyellow;
+}
+/* --- --- END footer --- --- */
