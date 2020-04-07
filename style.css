@@ -16,7 +16,12 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 :root {
-
+    /* for navbar & contact border-bottom */
+    --nav_background_color: rgb(190,49,68);
+    --projects_background: rgb(69,86,125);
+    /* for projects label & contact background & footer */
+    --projects_label_background: rgb(48,56,65); 
+    --welcome_background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
 
