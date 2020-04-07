@@ -27,4 +27,4 @@ FreeCodeCamp Personal Portfolio Webpage with HTML and CSS (No Frameworks) for Fr
 
 **User Story #11:**  The navbar should always be at the top of the viewport.
 
-You can see this project LIVE at the following URL:
+You can see this project LIVE at the following URL: https://pavelfaraday.github.io/Personal-Portfolio-Webpage-FreeCodeCamp/
