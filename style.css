@@ -1,0 +1,23 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+:root {
+
+}
+
+
+/* Self Styles */
